@@ -1,7 +1,7 @@
 # Flood-Tool
 
 ```
-### User instructions
+## User instructions
 
 The flood tool package can be used for both calcuation and visualisation of the annual flood risk for a set of user defined locations specified by postcode. 
 
