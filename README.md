@@ -1,16 +1,5 @@
 # Flood-Tool
 
-### Installation Guide
-
-The flood tool package can be downloaded and installed as follows:
-
-First the relevant github repoistry should be cloned:
-```
-git glone https://github.com/ese-msc-2021/ads-deluge-ouse.git
-```
-After moving to the relevant directory associated with the repository the following command can be run to install the flood tool package:
-```
-python setup.py install --user
 ```
 ### User instructions
 
@@ -39,10 +28,7 @@ The visualisations can be viewed by viewing the DataVisualisation.ipynd notebook
 
 
 
-
 ### Documentation
-
-_This section can be updated during the week._
 
 The code includes [Sphinx](https://www.sphinx-doc.org) documentation. On systems with Sphinx installed, this can be build by running
 
@@ -67,7 +53,6 @@ The tool includes several tests, which you can use to checki its operation on yo
 ```bash
 python -m pytest flood_tool
 ```
-
 
 
 ### Reading list
