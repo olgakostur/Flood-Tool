@@ -1,7 +1,10 @@
 # Flood-Tool
 
-```
-User instructions
+This are the results of a group project at Imperial College London focused on developing autamated tool for estimating flood risk at each UK postcode area. 
+More detailed description of the project can be read in Project_Description.ipynb. After successfull instalation folowing instructions below, user can use Data_Visualisation.ipynb to see the results of the project result visually. 
+
+## User instructions
+
 
 The flood tool package can be used for both calcuation and visualisation of the annual flood risk for a set of user defined locations specified by postcode. 
 
@@ -10,11 +13,13 @@ import flood_tool
 
 tool = Tool()
 ```
+
 ```
 risk_labels=tool.get_flood_class(self, postcodes, method=1, update=False)
 ```
 This generates a series predicting flood probability classification for a collection of postcodes.
 the method argument (shown above) choses the  classification alogorithm with which to train flood risk data with the following conversion: KNN: method=1, RandomForest: method=2, Neural Network : method=3)
+
 ```
 annual_flood_risk= tool.get_annual_flood_risk(postcodes,risk_labels)
 ```
