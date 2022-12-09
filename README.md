@@ -1,7 +1,7 @@
 # Flood-Tool
 
-This are the results of a group project at Imperial College London focused on developing autamated tool for estimating flood risk at each UK postcode area. 
-More detailed description of the project can be read in Project_Description.ipynb. After successfull instalation folowing instructions below, user can use Visualization.ipynb to see the results of the project result visually. 
+This are the results of a group project at Imperial College London. Project developed an autamated tool for estimation of flood risk at each UK postcode area. 
+More detailed description of the project can be found in Project_Description.ipynb. After successfull instalation folowing instructions below, user can find final result of the project in Visualization.ipynb. 
 
 ## User instructions
 
